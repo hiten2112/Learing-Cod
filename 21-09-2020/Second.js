@@ -1,7 +1,7 @@
 
 function printLargestArrayElement (A)
 {
-    A.sort
+    A.sort() //sort should be written as sort() in Javascript
     return A[A.length-1]
 }
 
